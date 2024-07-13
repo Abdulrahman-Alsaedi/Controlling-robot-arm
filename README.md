@@ -59,7 +59,7 @@ This repository provides instructions on how to control a robot arm using `joint
 
    roslaunch robot_arm_pkg check_motors.launch
 
-![Capture](https://github.com/user-attachments/assets/ad331917-7049-4cad-b0e4-8c2628287a8a)
+![Capture](https://github.com/user-attachments/assets/b1222d89-0cd0-4029-8b5f-1dfa8f6e246c)
 
 2. Check the joint states:
 
@@ -74,7 +74,7 @@ This repository provides instructions on how to control a robot arm using `joint
    roslaunch robot_arm_pkg check_motors_gazebo.launch
    rosrun robot_arm_pkg joint_states_to_gazebo.py
 
-![Gazebo](https://github.com/user-attachments/assets/5b0825eb-82d0-49ba-a00f-cc43cbbe6af9)
+![Gazebo](https://github.com/user-attachments/assets/bb472278-4473-4faa-ac53-f704bda917b2)
 
 4. You may need to change the permission of the script:
 
@@ -90,4 +90,4 @@ This repository provides instructions on how to control a robot arm using `joint
    roslaunch moveit_pkg demo.launch
    roslaunch moveit_pkg demo_gazebo.launch
 
-![moveit](https://github.com/user-attachments/assets/1533ec0d-fc28-4685-8351-cc3021f11677)
+![moveit](https://github.com/user-attachments/assets/82b5e64e-46e2-4696-acd9-e033f6fc0c06)
